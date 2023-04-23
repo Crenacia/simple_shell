@@ -2,10 +2,9 @@
 #define MAIN_H
 #include <stdio.h>
 
-int interactive(info_t*info);
-int _myexit (info_t*info);
-int _myhistory (inf0_t *info);
-int _mynv (info_t *info);
+int is_delim(char h, char*delim);
+int _isapha(int h);
+int _atoi(char *p);
 int _putfd(char c, int fd);
 
 #endif
